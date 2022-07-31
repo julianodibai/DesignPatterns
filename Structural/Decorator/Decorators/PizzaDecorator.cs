@@ -3,7 +3,7 @@ using Decorator.Componentes.Interfaces;
 namespace Decorator.Decorators
 {
     //Base Decorator
-    public class PizzaDecorator : IPizza
+    public abstract class PizzaDecorator : IPizza
     {
         private readonly IPizza _pizza;
 
